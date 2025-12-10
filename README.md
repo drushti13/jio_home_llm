@@ -1,56 +1,48 @@
-📌 Jio RAG Assistant (Retrieval Augmented Generation App)
+# 🚀 Jio RAG Assistant
 
-A custom-built RAG application that scrapes Jio-related content, stores embeddings in ChromaDB, and answers user queries using an LLM (Ollama or any model you choose).
+A Retrieval-Augmented Generation (RAG) chatbot that scrapes Jio website content, stores embeddings in ChromaDB, and uses an LLM via Ollama to generate accurate, context-aware answers.
 
-🚀 Features
+---
 
-🔍 Web Scraper — Scrapes Jio websites & saves JSONL
+## 📌 Description
+This project is an end-to-end RAG system built using **FastAPI**, **ChromaDB**, and **Ollama**.  
+It scrapes Jio-related content, converts it into embeddings, stores them in a vector database, and retrieves the most relevant chunks at query time to produce intelligent, context-driven responses.
 
-🧠 Embeddings Engine — Uses Ollama embeddings + ChromaDB
+The frontend is a simple **HTML/CSS/JS**-based chat UI that connects to the FastAPI backend.
 
-💬 RAG Chatbot — Answers user questions using retrieved context
+---
 
-🖥️ Frontend Interface — Simple HTML/CSS/JS
+## ⭐ Features
+- 🔍 Web scraper to extract Jio website data  
+- 🧠 Embedding generation using Ollama  
+- 📦 ChromaDB vector store for similarity search  
+- 🤖 RAG-based FastAPI backend  
+- 💬 Clean chat-based frontend (HTML + JS)  
+- 🐳 Docker support for easy deployment  
+- 📝 Logging for debugging and analytics  
 
-🗂️ Backend API — FastAPI with clean routes
+---
 
-🐳 Docker-ready — Run anywhere with docker-compose
+## 🧱 Tech Stack
+- **Backend:** FastAPI (Python)  
+- **LLM & Embeddings:** Ollama  
+- **Vector Database:** ChromaDB  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Infrastructure:** Docker, Docker Compose  
 
-⚙️ Setup & Installation
-1. Clone the repo
+---
+
+## 🛠️ How to Run the Project
+
+Clone the repository
+```bash
 git clone https://github.com/drushti13/jio_home_llm
-cd jio_home_llm
+cd jio_home_llm```
 
-2. Create environment variables
-
-Inside backend/.env.example, duplicate and rename it:
-
-cp backend/.env.example backend/.env
-
-
-Add your values:
-
-OLLAMA_HOST=http://localhost:11434
-CHROMA_DB_PATH=./chroma_db
-API_PORT=8000
-
-🧠 Build Embeddings
-
-Run the script to process scraped files and store embeddings in ChromaDB:
-
+Install Python dependencies
+pip install -r backend/requirements.txt
+Build embeddings (ChromaDB index)
 python backend/build_index.py
 
-▶️ Run the Backend
+Run the FastAPI backend
 uvicorn backend.main:app --reload
-
-🌐 Run the Frontend
-
-Simply open:
-
-frontend/index.html
-
-
-Or serve it using any static server plugin.
-
-🐳 Run Entire App with Docker
-docker-compose up --build
