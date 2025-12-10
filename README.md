@@ -2,7 +2,6 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot that scrapes Jio website content, stores embeddings in ChromaDB, and uses an LLM via Ollama to generate accurate, context-aware answers.
 
----
 
 ## 📌 Description
 This project is an end-to-end RAG system built using **FastAPI**, **ChromaDB**, and **Ollama**.  
@@ -10,7 +9,6 @@ It scrapes Jio-related content, converts it into embeddings, stores them in a ve
 
 The frontend is a simple **HTML/CSS/JS**-based chat UI that connects to the FastAPI backend.
 
----
 
 ## ⭐ Features
 - 🔍 Web scraper to extract Jio website data  
@@ -21,7 +19,6 @@ The frontend is a simple **HTML/CSS/JS**-based chat UI that connects to the Fast
 - 🐳 Docker support for easy deployment  
 - 📝 Logging for debugging and analytics  
 
----
 
 ## 🧱 Tech Stack
 - **Backend:** FastAPI (Python)  
@@ -30,7 +27,6 @@ The frontend is a simple **HTML/CSS/JS**-based chat UI that connects to the Fast
 - **Frontend:** HTML, CSS, JavaScript  
 - **Infrastructure:** Docker, Docker Compose  
 
----
 
 ## 🛠️ How to Run the Project 
 
