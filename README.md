@@ -1,16 +1,56 @@
-# Jio RAG Assistant
+📌 Jio RAG Assistant (Retrieval Augmented Generation App)
 
-A retrieval-augmented chatbot that scrapes the Jio website, embeds content with Ollama embeddings, stores chunks in ChromaDB, and answers questions via an Ollama LLM.  
-Frontend: simple SPA in `frontend/` that talks to the FastAPI backend.  
+A custom-built RAG application that scrapes Jio-related content, stores embeddings in ChromaDB, and answers user queries using an LLM (Ollama or any model you choose).
 
-## Key files
-- `backend/main.py` — FastAPI app and RAG flow. :contentReference[oaicite:12]{index=12}  
-- `backend/build_index.py` — scrapes / loads jsonl and uploads embeddings to ChromaDB. :contentReference[oaicite:13]{index=13}  
-- `backend/web_scraper.py` — the website scraper. :contentReference[oaicite:14]{index=14}  
-- `frontend/` — `index.html`, `style.css`, `script.js`. :contentReference[oaicite:15]{index=15} :contentReference[oaicite:16]{index=16} :contentReference[oaicite:17]{index=17}
+🚀 Features
 
-## Quick local dev (recommended)
-1. Create `.env` from `.env.example` and set values (OLLAMA_HOST etc).
-2. Build and run with Docker Compose:
-```bash
+🔍 Web Scraper — Scrapes Jio websites & saves JSONL
+
+🧠 Embeddings Engine — Uses Ollama embeddings + ChromaDB
+
+💬 RAG Chatbot — Answers user questions using retrieved context
+
+🖥️ Frontend Interface — Simple HTML/CSS/JS
+
+🗂️ Backend API — FastAPI with clean routes
+
+🐳 Docker-ready — Run anywhere with docker-compose
+
+⚙️ Setup & Installation
+1. Clone the repo
+git clone https://github.com/drushti13/jio_home_llm
+cd jio_home_llm
+
+2. Create environment variables
+
+Inside backend/.env.example, duplicate and rename it:
+
+cp backend/.env.example backend/.env
+
+
+Add your values:
+
+OLLAMA_HOST=http://localhost:11434
+CHROMA_DB_PATH=./chroma_db
+API_PORT=8000
+
+🧠 Build Embeddings
+
+Run the script to process scraped files and store embeddings in ChromaDB:
+
+python backend/build_index.py
+
+▶️ Run the Backend
+uvicorn backend.main:app --reload
+
+🌐 Run the Frontend
+
+Simply open:
+
+frontend/index.html
+
+
+Or serve it using any static server plugin.
+
+🐳 Run Entire App with Docker
 docker-compose up --build
