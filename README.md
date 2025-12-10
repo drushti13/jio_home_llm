@@ -45,4 +45,6 @@ Run the FastAPI backend
 ```bash
 uvicorn backend.main:app --reload
 ```
+## Output
 <img width="1022" height="790" alt="image" src="https://github.com/user-attachments/assets/909191b9-e283-4896-a05d-29d6a2afa023" />
+
