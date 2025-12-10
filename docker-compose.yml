@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - CHROMA_DB_PATH=/data/chroma_db
+      - OLLAMA_HOST=${OLLAMA_HOST:-http://host.docker.internal:11434}
+    volumes:
+      - ./backend:/app
+      - chroma_data:/data
+    depends_on: []
+
+volumes:
+  chroma_data:

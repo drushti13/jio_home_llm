@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jio RAG Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="logo-area">
+        <div class="logo-circle">J</div>
+        <div>
+          <div class="logo-title">Jio RAG Assistant</div>
+          <div class="logo-subtitle">Powered by Ollama + ChromaDB</div>
+        </div>
+      </div>
+
+      <div class="hint-card">
+        <h3>Try asking:</h3>
+        <ul>
+          <li>“What is JioHome?”</li>
+          <li>“Mention the Jio apps”</li>
+          <li>“Tell me about JioGames”</li>
+        </ul>
+      </div>
+
+      <div class="settings-card">
+      <label style="font-size: 13px; color: var(--text-soft); display:block; margin-bottom:6px;">
+    Answer mode
+  </label>
+  <select id="modeSelect" style="width:100%; padding:6px; border-radius:8px; border:1px solid var(--border); background:#020617; color:var(--text);">
+    <option value="fast">Fast</option>
+    <option value="detailed">Detailed</option>
+  </select>
+
+  <label class="toggle-row" style="margin-top:10px;">
+    <input type="number" id="topKInput" min="1" max="5" value="3" />
+    <span>Top-k chunks</span>
+  </label>
+</div>
+
+    </aside>
+
+    <main class="chat-area">
+      <header class="chat-header">
+        <div>
+          <div class="chat-title">Chat with the Jio Website</div>
+          <div class="chat-subtitle">Ask anything based on the scraped Jio content.</div>
+        </div>
+      </header>
+
+      <div id="chatbox" class="chatbox">
+        <!-- Messages will be injected here -->
+      </div>
+
+      <footer class="chat-input-bar">
+        <div class="input-wrapper">
+          <textarea
+            id="userInput"
+            placeholder="Ask something about Jio..."
+            rows="1"
+          ></textarea>
+        </div>
+        <button id="sendBtn" onclick="sendMessage()">
+          <span>Send</span>
+        </button>
+      </footer>
+    </main>
+  </div>
+
+    <!-- Add Marked.js for Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Your main script -->
+  <script src="script.js"></script>
+</body>
+</html>
+

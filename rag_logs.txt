@@ -1,0 +1,755 @@
+2025-12-09 17:42:00,894 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-09 17:42:05,266 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-09 17:42:14,285 [INFO] Received request | Question='list jio apps' | Detailed=True | top_k=5
+2025-12-09 17:42:14,285 [INFO] Retrieving top 5 chunks for query: 'list jio apps'
+2025-12-09 17:42:14,285 [INFO] --- New Query ---
+2025-12-09 17:42:14,285 [INFO] User question: list jio apps
+2025-12-09 17:42:15,620 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-09 17:42:15,621 [INFO] Embedding generated in 1.33s | Length=768
+2025-12-09 17:42:15,621 [INFO] Embedding preview: [-0.01221416  0.00459866 -0.1180706   0.05332647  0.01012251]...
+2025-12-09 17:42:15,894 [INFO] Chroma query took 0.27s
+2025-12-09 17:42:15,918 [INFO] Total chunks retrieved: 5
+2025-12-09 17:42:15,918 [INFO] Applied /apps URL filter for app-related query.
+2025-12-09 17:42:15,918 [INFO] --- LLM Invocation ---
+2025-12-09 17:42:15,918 [INFO] Model: llama3.2:3b | num_ctx=2048 | num_predict=512
+2025-12-09 17:42:15,918 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-09 17:42:15,918 [INFO] URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This is one of the best Indian news apps where you can also directly read Magazine/Newspaper with a single click without downloading it. I am not a Jio user...
+
+---
+URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Android 5.0 and above Min. 2 GB iOS 9 and above Min. 1 GB Mac 10.13 and above Min. 2 GB Windows 10 wi...
+2025-12-09 17:43:25,920 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-09 17:43:26,266 [INFO] LLM completed in 70.35s
+2025-12-09 17:43:26,266 [INFO] LLM answer preview: Here are the Jio apps mentioned in the website content:
+
+1. JioNews
+2. JioMeet
+3. JioHome
+4. JioGames
+
+Sources:
+ https://www.jio.com/apps/jionews 
+https://www.jio.com/apps/jiomeet 
+https://www.jio.com/apps/jiohome...
+2025-12-09 17:43:26,266 [INFO] [Timing] Retrieval+Context: 1.63s | LLM: 70.35s | Total: 71.99s
+2025-12-09 17:44:06,688 [INFO] Received request | Question='list jio apps' | Detailed=True | top_k=5
+2025-12-09 17:44:06,688 [INFO] Retrieving top 5 chunks for query: 'list jio apps'
+2025-12-09 17:44:06,688 [INFO] --- New Query ---
+2025-12-09 17:44:06,688 [INFO] User question: list jio apps
+2025-12-09 17:44:08,168 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-09 17:44:08,180 [INFO] Embedding generated in 1.49s | Length=768
+2025-12-09 17:44:08,209 [INFO] Embedding preview: [-0.01221416  0.00459866 -0.1180706   0.05332647  0.01012251]...
+2025-12-09 17:44:08,652 [INFO] Chroma query took 0.44s
+2025-12-09 17:44:08,743 [INFO] Total chunks retrieved: 5
+2025-12-09 17:44:08,743 [INFO] Applied /apps URL filter for app-related query.
+2025-12-09 17:44:08,751 [INFO] --- LLM Invocation ---
+2025-12-09 17:44:08,751 [INFO] Model: llama3.2:3b | num_ctx=2048 | num_predict=512
+2025-12-09 17:44:08,751 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-09 17:44:08,751 [INFO] URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This is one of the best Indian news apps where you can also directly read Magazine/Newspaper with a single click without downloading it. I am not a Jio user...
+
+---
+URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Android 5.0 and above Min. 2 GB iOS 9 and above Min. 1 GB Mac 10.13 and above Min. 2 GB Windows 10 wi...
+2025-12-09 17:44:24,461 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-09 17:44:24,554 [INFO] LLM completed in 15.80s
+2025-12-09 17:44:24,554 [INFO] LLM answer preview: Here are the Jio apps mentioned in the website content:
+
+1. JioNews
+2. JioMeet
+3. JioHome
+
+Sources:
+ https://www.jio.com/apps/jionews
+ https://www.jio.com/apps/jiomeet
+ https://www.jio.com/apps/jiohome...
+2025-12-09 17:44:24,554 [INFO] [Timing] Retrieval+Context: 2.06s | LLM: 15.81s | Total: 17.87s
+2025-12-09 17:44:27,663 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-09 17:45:29,859 [INFO] Received request | Question='list jio services' | Detailed=True | top_k=5
+2025-12-09 17:45:29,859 [INFO] Retrieving top 5 chunks for query: 'list jio services'
+2025-12-09 17:45:29,859 [INFO] --- New Query ---
+2025-12-09 17:45:29,860 [INFO] User question: list jio services
+2025-12-09 17:45:30,427 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-09 17:45:30,428 [INFO] Embedding generated in 0.57s | Length=768
+2025-12-09 17:45:30,428 [INFO] Embedding preview: [-0.05279471  0.0361745  -0.14560731  0.01294744  0.02019476]...
+2025-12-09 17:45:31,076 [INFO] Chroma query took 0.65s
+2025-12-09 17:45:31,076 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiomeet | Distance=0.7621
+2025-12-09 17:45:31,076 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jionews | Distance=0.8204
+2025-12-09 17:45:31,076 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiochat | Distance=0.8740
+2025-12-09 17:45:31,076 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiofinance | Distance=0.8789
+2025-12-09 17:45:31,076 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jionews | Distance=0.9109
+2025-12-09 17:45:31,076 [INFO] Total chunks retrieved: 5
+2025-12-09 17:45:31,076 [INFO] --- LLM Invocation ---
+2025-12-09 17:45:31,083 [INFO] Model: llama3.2:3b | num_ctx=2048 | num_predict=512
+2025-12-09 17:45:31,083 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-09 17:45:31,084 [INFO] URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Android 5.0 and above Min. 2 GB iOS 9 and above Min. 1 GB Mac 10.13 and above Min. 2 GB Windows 10 with Microsoft .NET Framework 4.5....
+
+---
+URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This is one of the best Indian news apps where you can also directly read Magazine/Newspaper with a single click without dow...
+2025-12-09 17:46:37,276 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-09 17:46:37,278 [INFO] LLM completed in 66.19s
+2025-12-09 17:46:37,278 [INFO] LLM answer preview: Here are the Jio services listed as per the website content:
+
+1. Video Conference & Free Video Meeting App - JioMeet
+2. Online News - Live News Channels & News App | JioNews
+3. Messaging App - Video Call & Video Chat App | JioChat
+4. Finance App: Mobile Banking & UPI Payment Solution | JioFinance
+
+Sources:
+https://www.jio.com/apps/jiomeet
+https://www.jio.com/apps/jionews
+https://www.jio.com/apps/j...
+2025-12-09 17:46:37,278 [INFO] [Timing] Retrieval+Context: 1.22s | LLM: 66.20s | Total: 67.42s
+2025-12-10 10:52:11,631 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 10:52:22,480 [INFO] Received request | Question='list jio services' | Detailed=False | top_k=3
+2025-12-10 10:52:22,480 [INFO] Retrieving top 2 chunks for query: 'list jio services'
+2025-12-10 10:52:22,480 [INFO] --- New Query ---
+2025-12-10 10:52:22,480 [INFO] User question: list jio services
+2025-12-10 10:52:23,962 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 10:52:23,963 [INFO] Embedding generated in 1.48s | Length=768
+2025-12-10 10:52:23,965 [INFO] Embedding preview: [-0.05279471  0.0361745  -0.14560731  0.01294744  0.02019476]...
+2025-12-10 10:52:24,505 [INFO] Chroma query took 0.54s
+2025-12-10 10:52:24,506 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiomeet | Distance=0.7621
+2025-12-10 10:52:24,506 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jionews | Distance=0.8204
+2025-12-10 10:52:24,506 [INFO] Total chunks retrieved: 2
+2025-12-10 10:52:24,506 [INFO] --- LLM Invocation ---
+2025-12-10 10:52:24,506 [INFO] Model: llama3.2:3b | num_ctx=1024 | num_predict=200
+2025-12-10 10:52:24,506 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 10:52:24,506 [INFO] URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platfor...
+
+---
+URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This i...
+
+---
+
+2025-12-10 10:53:05,043 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 10:53:05,044 [INFO] LLM completed in 40.54s
+2025-12-10 10:53:05,046 [INFO] LLM answer preview: Based on the provided website content, here are some Jio services listed:
+
+1. JioMeet (Video Conference & Free Video Meeting App)
+2. JioNews (Online News - Live News Channels & News App)
+
+Sources:
+https://www.jio.com/apps/jiomeet
+https://www.jio.com/apps/jionews...
+2025-12-10 10:53:05,046 [INFO] [Timing] Retrieval+Context: 2.02s | LLM: 40.54s | Total: 42.56s
+2025-12-10 10:53:14,840 [INFO] Received request | Question='list jio services' | Detailed=True | top_k=3
+2025-12-10 10:53:14,840 [INFO] Retrieving top 4 chunks for query: 'list jio services'
+2025-12-10 10:53:14,840 [INFO] --- New Query ---
+2025-12-10 10:53:14,840 [INFO] User question: list jio services
+2025-12-10 10:53:16,118 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 10:53:16,118 [INFO] Embedding generated in 1.28s | Length=768
+2025-12-10 10:53:16,124 [INFO] Embedding preview: [-0.05279471  0.0361745  -0.14560731  0.01294744  0.02019476]...
+2025-12-10 10:53:16,143 [INFO] Chroma query took 0.01s
+2025-12-10 10:53:16,143 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiomeet | Distance=0.7621
+2025-12-10 10:53:16,143 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jionews | Distance=0.8204
+2025-12-10 10:53:16,143 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiochat | Distance=0.8740
+2025-12-10 10:53:16,143 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiofinance | Distance=0.8789
+2025-12-10 10:53:16,143 [INFO] Total chunks retrieved: 4
+2025-12-10 10:53:16,143 [INFO] --- LLM Invocation ---
+2025-12-10 10:53:16,143 [INFO] Model: llama3.2:3b | num_ctx=2048 | num_predict=512
+2025-12-10 10:53:16,143 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 10:53:16,143 [INFO] URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Android 5.0 and above Min. 2 GB iOS 9 and above Min. 1 GB Mac 10.13 and above Min. 2 GB Windows 10 with Microsoft .NET Framework 4.5....
+
+---
+URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This is one of the best Indian news apps where you can also directly read Magazine/Newspaper with a single click without dow...
+2025-12-10 10:55:02,531 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 10:55:02,558 [INFO] LLM completed in 106.41s
+2025-12-10 10:55:02,559 [INFO] LLM answer preview: Here are the Jio services that can be found in the provided website content:
+
+1. JioMeet (Video Conference & Free Video Meeting App)
+2. JioNews (Online News - Live News Channels & News App)
+3. JioChat (Messaging App - Video Call & Video Chat App)
+4. JioFinance (Finance App: Mobile Banking & UPI Payment Solution)
+
+Sources:
+ https://www.jio.com/apps/jiomeet
+ https://www.jio.com/apps/jionews
+ https:/...
+2025-12-10 10:55:02,559 [INFO] [Timing] Retrieval+Context: 1.30s | LLM: 106.41s | Total: 107.72s
+2025-12-10 10:57:21,909 [INFO] Received request | Question='list jio services' | Detailed=True | top_k=5
+2025-12-10 10:57:21,909 [INFO] Retrieving top 5 chunks for query: 'list jio services'
+2025-12-10 10:57:21,909 [INFO] --- New Query ---
+2025-12-10 10:57:21,909 [INFO] User question: list jio services
+2025-12-10 10:57:23,472 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 10:57:23,491 [INFO] Embedding generated in 1.57s | Length=768
+2025-12-10 10:57:23,539 [INFO] Embedding preview: [-0.05279471  0.0361745  -0.14560731  0.01294744  0.02019476]...
+2025-12-10 10:57:23,676 [INFO] Chroma query took 0.13s
+2025-12-10 10:57:23,677 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiomeet | Distance=0.7621
+2025-12-10 10:57:23,678 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jionews | Distance=0.8204
+2025-12-10 10:57:23,678 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiochat | Distance=0.8740
+2025-12-10 10:57:23,678 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiofinance | Distance=0.8789
+2025-12-10 10:57:23,678 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jionews | Distance=0.9109
+2025-12-10 10:57:23,679 [INFO] Total chunks retrieved: 5
+2025-12-10 10:57:23,679 [INFO] --- LLM Invocation ---
+2025-12-10 10:57:23,679 [INFO] Model: llama3.2:3b | num_ctx=2048 | num_predict=512
+2025-12-10 10:57:23,679 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 10:57:23,679 [INFO] URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Android 5.0 and above Min. 2 GB iOS 9 and above Min. 1 GB Mac 10.13 and above Min. 2 GB Windows 10 with Microsoft .NET Framework 4.5....
+
+---
+URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This is one of the best Indian news apps where you can also directly read Magazine/Newspaper with a single click without dow...
+2025-12-10 10:58:03,433 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 10:58:03,441 [INFO] LLM completed in 39.76s
+2025-12-10 10:58:03,442 [INFO] LLM answer preview: Here are the Jio services listed based on the provided website content:
+
+1. JioMeet (Video Conference & Free Video Meeting App)
+2. JioChat (Messaging App - Video Call & Video Chat App)
+3. JioFinance (Finance App: Mobile Banking & UPI Payment Solution)
+
+Sources:
+https://www.jio.com/apps/jiomeet
+https://www.jio.com/apps/jionews
+https://www.jio.com/apps/jiochat
+https://www.jio.com/apps/jiofinance...
+2025-12-10 10:58:03,443 [INFO] [Timing] Retrieval+Context: 1.77s | LLM: 39.76s | Total: 41.53s
+2025-12-10 10:59:31,653 [INFO] Received request | Question='tell me about jioFinance' | Detailed=True | top_k=5
+2025-12-10 10:59:31,661 [INFO] Retrieving top 5 chunks for query: 'tell me about jioFinance'
+2025-12-10 10:59:31,662 [INFO] --- New Query ---
+2025-12-10 10:59:31,662 [INFO] User question: tell me about jioFinance
+2025-12-10 10:59:32,773 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 10:59:32,792 [INFO] Embedding generated in 1.13s | Length=768
+2025-12-10 10:59:32,819 [INFO] Embedding preview: [-0.0353183   0.02557776 -0.12614934  0.01367788  0.04239883]...
+2025-12-10 10:59:32,927 [INFO] Chroma query took 0.10s
+2025-12-10 10:59:32,928 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiofinance | Distance=0.7370
+2025-12-10 10:59:32,928 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jiochat | Distance=0.7739
+2025-12-10 10:59:32,928 [INFO] [Chunk 3] URL=https://www.jio.com/apps/myjio | Distance=0.7774
+2025-12-10 10:59:32,928 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiotv | Distance=0.8125
+2025-12-10 10:59:32,928 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jionews | Distance=0.8154
+2025-12-10 10:59:32,928 [INFO] Total chunks retrieved: 5
+2025-12-10 10:59:32,931 [INFO] --- LLM Invocation ---
+2025-12-10 10:59:32,931 [INFO] Model: llama3.2:3b | num_ctx=2048 | num_predict=512
+2025-12-10 10:59:32,931 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 10:59:32,931 [INFO] URL: https://www.jio.com/apps/jiofinance
+Title: Finance App: Mobile Banking & UPI Payment Solution | JioFinance
+Content:
+ is Jio Financial Services? Jio Financial Services (JFS) is a digital-first financial institution that provides a one-stop platform to borrow, pay, save, and invest. JFS is a holding company that operates its financial services business through entities such as Jio Finance, Jio Insurance Broking, Jio Payment Solutions, Jio Payments Bank, Jio Leasing, and Jio-BlackRock. Together, they offer loans, ...
+
+---
+URL: https://www.jio.com/apps/jiochat
+Title: Messaging App - Video Call & Video Chat App | JioChat
+Content:
+ioChat. What are JioChat Channels? JioChat channels are the cool way to connect with your favourite brands and celebrities through a chat interface. You can follow a JioChat channel to receive content shared on the channel and chat with them. What are JioChat stories? JioChat Stories allows you to explore the exciting video stories from top media brands, speci...
+2025-12-10 11:01:27,735 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 11:01:27,768 [INFO] LLM completed in 114.84s
+2025-12-10 11:01:27,768 [INFO] LLM answer preview: JioFinance is a digital-first financial institution that provides a one-stop platform to borrow, pay, save, and invest.
+
+It operates its financial services business through entities such as Jio Finance, Jio Insurance Broking, Jio Payment Solutions, Jio Payments Bank, Jio Leasing, and Jio-BlackRock.
+
+Sources: https://www.jio.com/apps/jiofinance, https://www.jio.com/apps/jiofinancialservices...
+2025-12-10 11:01:27,768 [INFO] [Timing] Retrieval+Context: 1.27s | LLM: 114.84s | Total: 116.12s
+2025-12-10 11:06:22,838 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:06:27,381 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:07:46,476 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:07:50,431 [INFO] Received request | Question='list jio apps' | Detailed=True | top_k=3
+2025-12-10 11:07:50,431 [INFO] Retrieving top 4 chunks for query: 'list jio apps'
+2025-12-10 11:07:50,431 [INFO] --- New Query ---
+2025-12-10 11:07:50,432 [INFO] User question: list jio apps
+2025-12-10 11:07:52,437 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:07:52,440 [INFO] Embedding generated in 2.01s | Length=768
+2025-12-10 11:07:52,444 [INFO] Embedding preview: [-0.01221416  0.00459866 -0.1180706   0.05332647  0.01012251]...
+2025-12-10 11:07:52,737 [INFO] Chroma query took 0.29s
+2025-12-10 11:07:52,738 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jionews | Distance=0.7082
+2025-12-10 11:07:52,738 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jiomeet | Distance=0.7499
+2025-12-10 11:07:52,738 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiohome | Distance=0.8471
+2025-12-10 11:07:52,739 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jionews | Distance=0.8678
+2025-12-10 11:07:52,739 [INFO] Total chunks retrieved: 4
+2025-12-10 11:07:52,739 [INFO] Applied /apps URL filter for app-related query.
+2025-12-10 11:07:52,739 [INFO] --- LLM Invocation ---
+2025-12-10 11:07:52,739 [INFO] Model: llama3.2:3b | num_ctx=4096 | num_predict=1024
+2025-12-10 11:07:52,739 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 11:07:52,741 [INFO] URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This is one of the best Indian news apps where you can also directly read Magazine/Newspaper with a single click without downloading it. I am not a Jio user. Can I access all premium features on JioNews? Non-Jio users can access all the features in the app
+
+---
+URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Andr...
+2025-12-10 11:10:11,446 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 11:10:11,892 [INFO] LLM completed in 139.15s
+2025-12-10 11:10:11,896 [INFO] LLM answer preview: Here is the list of Jio apps:
+
+1. **JioNews**
+	* Description: Online News Channels & News App
+	* Sources: https://www.jio.com/apps/jionews, https://www.jionews.com
+2. **JioMeet**
+	* Description: Video Conference & Free Video Meeting App
+	* Sources: https://www.jio.com/apps/jiomeet
+3. **JioHome**
+	* Description: Control Smart TV & STB with Smart Home App
+	* Sources: https://www.jio.com/apps/jiohome...
+2025-12-10 11:10:11,901 [INFO] [Timing] Retrieval+Context: 2.31s | LLM: 139.16s | Total: 141.47s
+2025-12-10 11:12:58,167 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:13:24,194 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:13:28,930 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:13:36,247 [INFO] Received request | Question='LIST JIO APPS' | Detailed=True | top_k=3
+2025-12-10 11:13:36,247 [INFO] Retrieving up to 4 chunks for query: 'LIST JIO APPS'
+2025-12-10 11:13:36,249 [INFO] --- New Query ---
+2025-12-10 11:13:36,250 [INFO] User question: LIST JIO APPS
+2025-12-10 11:13:37,759 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:13:37,760 [INFO] Embedding generated in 1.51s | Length=768
+2025-12-10 11:13:37,765 [INFO] Embedding preview: [-0.001607    0.02314655 -0.18584801 -0.0080457   0.05964398]...
+2025-12-10 11:13:37,765 [INFO] Using cached embedding for: LIST JIO APPS
+2025-12-10 11:13:38,097 [INFO] --- New Query ---
+2025-12-10 11:13:38,097 [INFO] User question: Jio app
+2025-12-10 11:13:38,189 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:13:38,189 [INFO] Embedding generated in 0.08s | Length=768
+2025-12-10 11:13:38,189 [INFO] Embedding preview: [ 0.00904881 -0.00283503 -0.11987048  0.02512495  0.05317864]...
+2025-12-10 11:13:38,195 [INFO] --- New Query ---
+2025-12-10 11:13:38,195 [INFO] User question: apps
+2025-12-10 11:13:38,278 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:13:38,279 [INFO] Embedding generated in 0.08s | Length=768
+2025-12-10 11:13:38,279 [INFO] Embedding preview: [ 1.8184634e-02  6.0418730e-05 -1.2584150e-01  2.4156518e-02
+  3.8662490e-02]...
+2025-12-10 11:13:38,282 [INFO] --- New Query ---
+2025-12-10 11:13:38,282 [INFO] User question: Jio apps
+2025-12-10 11:13:38,371 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:13:38,371 [INFO] Embedding generated in 0.09s | Length=768
+2025-12-10 11:13:38,371 [INFO] Embedding preview: [ 0.00059107  0.00489671 -0.11701283  0.05136599  0.0577645 ]...
+2025-12-10 11:13:38,375 [INFO] --- New Query ---
+2025-12-10 11:13:38,375 [INFO] User question: Jio application
+2025-12-10 11:13:38,459 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:13:38,482 [INFO] Embedding generated in 0.10s | Length=768
+2025-12-10 11:13:38,482 [INFO] Embedding preview: [-0.0087647  -0.02431347 -0.13319966  0.00918329  0.0199281 ]...
+2025-12-10 11:13:38,486 [INFO] Total unique chunks retrieved: 11
+2025-12-10 11:13:38,486 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiogames | Distance=0.5264
+2025-12-10 11:13:38,486 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jiomeet | Distance=0.6140
+2025-12-10 11:13:38,486 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiofinance | Distance=0.6205
+2025-12-10 11:13:38,486 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiosafe | Distance=0.6207
+2025-12-10 11:13:38,486 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jiofinance | Distance=0.4971
+2025-12-10 11:13:38,486 [INFO] [Chunk 6] URL=https://www.jio.com/apps/jiohome | Distance=0.5300
+2025-12-10 11:13:38,486 [INFO] [Chunk 7] URL=https://www.jio.com/apps/jiotv | Distance=0.5403
+2025-12-10 11:13:38,486 [INFO] [Chunk 8] URL=https://www.jio.com/apps/jiohealth | Distance=0.5836
+2025-12-10 11:13:38,486 [INFO] [Chunk 9] URL=https://www.jio.com/mobile/apps | Distance=0.6454
+2025-12-10 11:13:38,486 [INFO] [Chunk 10] URL=https://www.jio.com/apps | Distance=0.6454
+2025-12-10 11:13:38,491 [INFO] [Chunk 11] URL=https://www.jio.com/apps/jiofinance | Distance=0.6175
+2025-12-10 11:16:54,147 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:16:59,076 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:17:08,631 [INFO] Received request | Question='LIST JIO APPS' | Detailed=True | top_k=3
+2025-12-10 11:17:08,631 [INFO] Retrieving up to 4 chunks for query: 'LIST JIO APPS'
+2025-12-10 11:17:08,631 [INFO] --- New Query ---
+2025-12-10 11:17:08,632 [INFO] User question: LIST JIO APPS
+2025-12-10 11:17:08,865 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:17:08,866 [INFO] Embedding generated in 0.23s | Length=768
+2025-12-10 11:17:08,871 [INFO] Embedding preview: [-0.001607    0.02314655 -0.18584801 -0.0080457   0.05964398]...
+2025-12-10 11:17:08,871 [INFO] Using cached embedding for: LIST JIO APPS
+2025-12-10 11:17:09,078 [INFO] --- New Query ---
+2025-12-10 11:17:09,078 [INFO] User question: Jio app
+2025-12-10 11:17:09,166 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:17:09,166 [INFO] Embedding generated in 0.09s | Length=768
+2025-12-10 11:17:09,166 [INFO] Embedding preview: [ 0.00904881 -0.00283503 -0.11987048  0.02512495  0.05317864]...
+2025-12-10 11:17:09,170 [INFO] --- New Query ---
+2025-12-10 11:17:09,170 [INFO] User question: apps
+2025-12-10 11:17:09,237 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:17:09,238 [INFO] Embedding generated in 0.06s | Length=768
+2025-12-10 11:17:09,238 [INFO] Embedding preview: [ 1.8184634e-02  6.0418730e-05 -1.2584150e-01  2.4156518e-02
+  3.8662490e-02]...
+2025-12-10 11:17:09,238 [INFO] --- New Query ---
+2025-12-10 11:17:09,238 [INFO] User question: Jio apps
+2025-12-10 11:17:09,317 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:17:09,317 [INFO] Embedding generated in 0.08s | Length=768
+2025-12-10 11:17:09,317 [INFO] Embedding preview: [ 0.00059107  0.00489671 -0.11701283  0.05136599  0.0577645 ]...
+2025-12-10 11:17:09,320 [INFO] --- New Query ---
+2025-12-10 11:17:09,320 [INFO] User question: Jio application
+2025-12-10 11:17:09,607 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:17:09,608 [INFO] Embedding generated in 0.29s | Length=768
+2025-12-10 11:17:09,608 [INFO] Embedding preview: [-0.0087647  -0.02431347 -0.13319966  0.00918329  0.0199281 ]...
+2025-12-10 11:17:09,612 [INFO] Total unique chunks retrieved: 11
+2025-12-10 11:17:09,612 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiogames | Distance=0.5264
+2025-12-10 11:17:09,612 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jiomeet | Distance=0.6140
+2025-12-10 11:17:09,612 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiofinance | Distance=0.6205
+2025-12-10 11:17:09,612 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiosafe | Distance=0.6207
+2025-12-10 11:17:09,612 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jiofinance | Distance=0.4971
+2025-12-10 11:17:09,612 [INFO] [Chunk 6] URL=https://www.jio.com/apps/jiohome | Distance=0.5300
+2025-12-10 11:17:09,612 [INFO] [Chunk 7] URL=https://www.jio.com/apps/jiotv | Distance=0.5403
+2025-12-10 11:17:09,612 [INFO] [Chunk 8] URL=https://www.jio.com/apps/jiohealth | Distance=0.5836
+2025-12-10 11:17:09,617 [INFO] [Chunk 9] URL=https://www.jio.com/mobile/apps | Distance=0.6454
+2025-12-10 11:17:09,617 [INFO] [Chunk 10] URL=https://www.jio.com/apps | Distance=0.6454
+2025-12-10 11:17:09,617 [INFO] [Chunk 11] URL=https://www.jio.com/apps/jiofinance | Distance=0.6175
+2025-12-10 11:17:09,617 [INFO] Filtered to 11 /apps-related chunks.
+2025-12-10 11:17:09,617 [INFO] Applied /apps URL filter for app-related query.
+2025-12-10 11:17:09,618 [INFO] --- LLM Invocation ---
+2025-12-10 11:17:09,618 [INFO] Model: llama3.2:3b | num_ctx=4096 | num_predict=1024
+2025-12-10 11:17:09,618 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 11:17:09,618 [INFO] URL: https://www.jio.com/apps/jiogames
+Title: Jio Games - India's Very Own Online Gaming Platform
+Content:
+Policies Terms & conditions
+
+---
+URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Android 5.0 and above Min. 2 GB iOS 9 and above Min. 1 GB Mac 10.13 and above Min. 2 GB Windows 10 with Microsoft .NET Framework 4.5.2 (x86 and x64) and above. Min. 4 GB How can I start meeting in JioMeet? On your JioMeet App, you ca
+
+---
+URL: https://www.jio.com/apps/jiofinance
+Title: Finance App: Mobile Banking & UPI Payment Solution | JioFinance
+Content:
+ is Jio Financial Services? Jio Financial Services (JFS) is a digital-first financial institution that provides a one-...
+2025-12-10 11:21:49,094 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 11:21:49,129 [INFO] LLM completed in 279.51s
+2025-12-10 11:21:49,130 [INFO] LLM answer preview: Here are the listed Jio apps:
+
+1. **JioGames**
+   - A gaming platform featuring various games and esports.
+   - Available for Android and iOS devices.
+
+2. **JioMeet**
+   - A video conference and free video meeting app.
+   - Available for Android, iOS, and desktop (via https://jiomeetpro.jio.com/home#download).
+   - Recommended system requirements include:
+     - Android 5.0 and above with at least...
+2025-12-10 11:21:49,132 [INFO] [Timing] Retrieval+Context: 0.99s | LLM: 279.51s | Total: 280.50s
+2025-12-10 11:21:54,049 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:26:00,344 [INFO] Received request | Question='list jio apps' | Detailed=True | top_k=3
+2025-12-10 11:26:00,352 [INFO] Retrieving up to 4 chunks for query: 'list jio apps'
+2025-12-10 11:26:00,353 [INFO] --- New Query ---
+2025-12-10 11:26:00,354 [INFO] User question: list jio apps
+2025-12-10 11:26:02,120 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:26:02,165 [INFO] Embedding generated in 1.81s | Length=768
+2025-12-10 11:26:02,221 [INFO] Embedding preview: [-0.01221416  0.00459866 -0.1180706   0.05332647  0.01012251]...
+2025-12-10 11:26:02,222 [INFO] Using cached embedding for: list jio apps
+2025-12-10 11:26:02,843 [INFO] --- New Query ---
+2025-12-10 11:26:02,843 [INFO] User question: Jio app
+2025-12-10 11:26:02,933 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:26:02,935 [INFO] Embedding generated in 0.09s | Length=768
+2025-12-10 11:26:02,935 [INFO] Embedding preview: [ 0.00904881 -0.00283503 -0.11987048  0.02512495  0.05317864]...
+2025-12-10 11:26:02,944 [INFO] --- New Query ---
+2025-12-10 11:26:02,944 [INFO] User question: apps
+2025-12-10 11:26:03,018 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:26:03,019 [INFO] Embedding generated in 0.07s | Length=768
+2025-12-10 11:26:03,019 [INFO] Embedding preview: [ 1.8184634e-02  6.0418730e-05 -1.2584150e-01  2.4156518e-02
+  3.8662490e-02]...
+2025-12-10 11:26:03,026 [INFO] --- New Query ---
+2025-12-10 11:26:03,027 [INFO] User question: Jio apps
+2025-12-10 11:26:03,094 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:26:03,095 [INFO] Embedding generated in 0.07s | Length=768
+2025-12-10 11:26:03,095 [INFO] Embedding preview: [ 0.00059107  0.00489671 -0.11701283  0.05136599  0.0577645 ]...
+2025-12-10 11:26:03,095 [INFO] --- New Query ---
+2025-12-10 11:26:03,095 [INFO] User question: Jio application
+2025-12-10 11:26:03,170 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:26:03,171 [INFO] Embedding generated in 0.07s | Length=768
+2025-12-10 11:26:03,171 [INFO] Embedding preview: [-0.0087647  -0.02431347 -0.13319966  0.00918329  0.0199281 ]...
+2025-12-10 11:26:03,177 [INFO] Total unique chunks retrieved: 10
+2025-12-10 11:26:03,177 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jionews | Distance=0.7082
+2025-12-10 11:26:03,177 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jiomeet | Distance=0.7499
+2025-12-10 11:26:03,177 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiohome | Distance=0.8471
+2025-12-10 11:26:03,177 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jionews | Distance=0.8678
+2025-12-10 11:26:03,177 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jiofinance | Distance=0.4971
+2025-12-10 11:26:03,177 [INFO] [Chunk 6] URL=https://www.jio.com/apps/jiotv | Distance=0.5403
+2025-12-10 11:26:03,177 [INFO] [Chunk 7] URL=https://www.jio.com/apps/jiohealth | Distance=0.5836
+2025-12-10 11:26:03,177 [INFO] [Chunk 8] URL=https://www.jio.com/mobile/apps | Distance=0.6454
+2025-12-10 11:26:03,177 [INFO] [Chunk 9] URL=https://www.jio.com/apps | Distance=0.6454
+2025-12-10 11:26:03,177 [INFO] [Chunk 10] URL=https://www.jio.com/apps/jiofinance | Distance=0.6175
+2025-12-10 11:26:03,177 [INFO] Filtered to 10 /apps-related chunks.
+2025-12-10 11:26:03,177 [INFO] Applied /apps URL filter for app-related query.
+2025-12-10 11:26:03,177 [INFO] --- LLM Invocation ---
+2025-12-10 11:26:03,177 [INFO] Model: llama3.2:3b | num_ctx=4096 | num_predict=1024
+2025-12-10 11:26:03,177 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 11:26:03,177 [INFO] URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This is one of the best Indian news apps where you can also directly read Magazine/Newspaper with a single click without downloading it. I am not a Jio user. Can I access all premium features on JioNews? Non-Jio users can access all the features in the app
+
+---
+URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Andr...
+2025-12-10 11:31:01,470 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 11:31:01,549 [INFO] LLM completed in 298.36s
+2025-12-10 11:31:01,552 [INFO] LLM answer preview: Here are the Jio apps listed:
+
+1. **JioNews**
+	* A news app providing live news channels and breaking news every second.
+	* Features: Access to over 190+ live news channels, viral videos, and news websites from India and across the world in multiple languages.
+	* Purpose: To keep users updated with the latest news and current events.
+
+2. **JioMeet**
+	* A video conference app for free video meeting...
+2025-12-10 11:31:01,555 [INFO] [Timing] Retrieval+Context: 2.84s | LLM: 298.38s | Total: 301.21s
+2025-12-10 11:35:13,427 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 11:35:56,611 [INFO] Received request | Question='list jio services' | Detailed=True | top_k=3
+2025-12-10 11:35:56,612 [INFO] Retrieving up to 4 chunks for query: 'list jio services'
+2025-12-10 11:35:56,612 [INFO] --- New Query ---
+2025-12-10 11:35:56,613 [INFO] User question: list jio services
+2025-12-10 11:35:58,177 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 11:35:58,177 [INFO] Embedding generated in 1.56s | Length=768
+2025-12-10 11:35:58,181 [INFO] Embedding preview: [-0.05279471  0.0361745  -0.14560731  0.01294744  0.02019476]...
+2025-12-10 11:35:58,181 [INFO] Using cached embedding for: list jio services
+2025-12-10 11:35:58,545 [INFO] Total unique chunks retrieved: 4
+2025-12-10 11:35:58,546 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiomeet | Distance=0.7621
+2025-12-10 11:35:58,546 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jionews | Distance=0.8204
+2025-12-10 11:35:58,546 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiochat | Distance=0.8740
+2025-12-10 11:35:58,546 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiofinance | Distance=0.8789
+2025-12-10 11:35:58,548 [INFO] --- LLM Invocation ---
+2025-12-10 11:35:58,550 [INFO] Model: llama3.2:3b | num_ctx=4096 | num_predict=1024
+2025-12-10 11:35:58,551 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 11:35:58,551 [INFO] URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platform OS Version RAM Android 5.0 and above Min. 2 GB iOS 9 and above Min. 1 GB Mac 10.13 and above Min. 2 GB Windows 10 with Microsoft .NET Framework 4.5.2 (x86 and x64) and above. Min. 4 GB How can I start meeting in JioMeet? On your JioMeet App, you ca
+
+---
+URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This is one of the best Ind...
+2025-12-10 11:38:09,859 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 11:38:09,892 [INFO] LLM completed in 131.34s
+2025-12-10 11:38:09,892 [INFO] LLM answer preview: Based on the provided website content, here are the Jio services listed:
+
+1. JioMeet - Video Conference & Free Video Meeting App
+	* Can be downloaded from the Play Store/AppStore for Android and iOS devices, or directly from https://jiomeetpro.jio.com/home#download for desktop.
+	* Recommended system requirements: Android 5.0 and above, iOS 9 and above, Mac 10.13 and above, Windows 10 with Microsof...
+2025-12-10 11:38:09,892 [INFO] [Timing] Retrieval+Context: 1.94s | LLM: 131.35s | Total: 133.29s
+2025-12-10 11:45:16,786 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 12:18:29,308 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-10 12:19:01,033 [INFO] Received request | Question='list jio apps' | Detailed=False | top_k=3
+2025-12-10 12:19:01,035 [INFO] Retrieving up to 2 chunks for query: 'list jio apps'
+2025-12-10 12:19:01,037 [INFO] --- New Query ---
+2025-12-10 12:19:01,037 [INFO] User question: list jio apps
+2025-12-10 12:19:02,435 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 12:19:02,441 [INFO] Embedding generated in 1.40s | Length=768
+2025-12-10 12:19:02,457 [INFO] Embedding preview: [-0.01221416  0.00459866 -0.1180706   0.05332647  0.01012251]...
+2025-12-10 12:19:02,457 [INFO] Using cached embedding for: list jio apps
+2025-12-10 12:19:02,976 [INFO] --- New Query ---
+2025-12-10 12:19:02,976 [INFO] User question: Jio app
+2025-12-10 12:19:03,080 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 12:19:03,082 [INFO] Embedding generated in 0.11s | Length=768
+2025-12-10 12:19:03,083 [INFO] Embedding preview: [ 0.00904881 -0.00283503 -0.11987048  0.02512495  0.05317864]...
+2025-12-10 12:19:03,087 [INFO] --- New Query ---
+2025-12-10 12:19:03,087 [INFO] User question: apps
+2025-12-10 12:19:03,151 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 12:19:03,152 [INFO] Embedding generated in 0.06s | Length=768
+2025-12-10 12:19:03,153 [INFO] Embedding preview: [ 1.8184634e-02  6.0418730e-05 -1.2584150e-01  2.4156518e-02
+  3.8662490e-02]...
+2025-12-10 12:19:03,156 [INFO] --- New Query ---
+2025-12-10 12:19:03,156 [INFO] User question: Jio apps
+2025-12-10 12:19:03,210 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 12:19:03,210 [INFO] Embedding generated in 0.05s | Length=768
+2025-12-10 12:19:03,210 [INFO] Embedding preview: [ 0.00059107  0.00489671 -0.11701283  0.05136599  0.0577645 ]...
+2025-12-10 12:19:03,211 [INFO] --- New Query ---
+2025-12-10 12:19:03,211 [INFO] User question: Jio application
+2025-12-10 12:19:03,326 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 12:19:03,334 [INFO] Embedding generated in 0.12s | Length=768
+2025-12-10 12:19:03,337 [INFO] Embedding preview: [-0.0087647  -0.02431347 -0.13319966  0.00918329  0.0199281 ]...
+2025-12-10 12:19:03,345 [INFO] Total unique chunks retrieved: 5
+2025-12-10 12:19:03,345 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jionews | Distance=0.7082
+2025-12-10 12:19:03,346 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jiomeet | Distance=0.7499
+2025-12-10 12:19:03,347 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiofinance | Distance=0.4971
+2025-12-10 12:19:03,348 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiohome | Distance=0.5300
+2025-12-10 12:19:03,349 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jiohealth | Distance=0.6987
+2025-12-10 12:19:03,349 [INFO] Filtered to 5 /apps-related chunks.
+2025-12-10 12:19:03,350 [INFO] Applied /apps URL filter for app-related query.
+2025-12-10 12:19:03,351 [INFO] --- LLM Invocation ---
+2025-12-10 12:19:03,351 [INFO] Model: llama3.2:3b | num_ctx=1024 | num_predict=300
+2025-12-10 12:19:03,352 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 12:19:03,352 [INFO] URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This i...
+
+---
+URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platfor...
+
+---
+URL: https://www.jio.com/apps/jiofinance
+Title: Finance App: Mobile Banking & UPI Payment Solution | JioFinance
+Content:
+p as a financial tracking and money management tool. Just download the JioFinance app to get started. What can I do with the JioFinance ap...
+2025-12-10 12:21:19,859 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 12:21:20,231 [INFO] LLM completed in 136.88s
+2025-12-10 12:21:20,231 [INFO] LLM answer preview: Here's the list of Jio apps:
+
+* JioNews
+* JioMeet
+* JioFinance
+* JioHome
+* JioHealth
+
+Sources: https://www.jio.com/apps/jionews, https://www.jio.com/apps/jiomeet, https://www.jio.com/apps/jiofinance, https://www.jio.com/apps/jiohome, https://www.jio.com/apps/jiohealth...
+2025-12-10 12:21:20,232 [INFO] [Timing] Retrieval+Context: 2.32s | LLM: 136.88s | Total: 139.20s
+2025-12-10 12:21:33,376 [INFO] Received request | Question='list jio apps' | Detailed=False | top_k=3
+2025-12-10 12:21:33,380 [INFO] Retrieving up to 2 chunks for query: 'list jio apps'
+2025-12-10 12:21:33,382 [INFO] Using cached embedding for: list jio apps
+2025-12-10 12:21:33,383 [INFO] Using cached embedding for: list jio apps
+2025-12-10 12:21:33,612 [INFO] Using cached embedding for: Jio app
+2025-12-10 12:21:33,615 [INFO] Using cached embedding for: apps
+2025-12-10 12:21:33,617 [INFO] Using cached embedding for: Jio apps
+2025-12-10 12:21:33,617 [INFO] Using cached embedding for: Jio application
+2025-12-10 12:21:33,624 [INFO] Total unique chunks retrieved: 5
+2025-12-10 12:21:33,625 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jionews | Distance=0.7082
+2025-12-10 12:21:33,625 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jiomeet | Distance=0.7499
+2025-12-10 12:21:33,625 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiofinance | Distance=0.4971
+2025-12-10 12:21:33,625 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiohome | Distance=0.5300
+2025-12-10 12:21:33,626 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jiohealth | Distance=0.6987
+2025-12-10 12:21:33,664 [INFO] Filtered to 5 /apps-related chunks.
+2025-12-10 12:21:33,671 [INFO] Applied /apps URL filter for app-related query.
+2025-12-10 12:21:33,673 [INFO] --- LLM Invocation ---
+2025-12-10 12:21:33,673 [INFO] Model: llama3.2:3b | num_ctx=1024 | num_predict=300
+2025-12-10 12:21:33,673 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 12:21:33,673 [INFO] URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This i...
+
+---
+URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platfor...
+
+---
+URL: https://www.jio.com/apps/jiofinance
+Title: Finance App: Mobile Banking & UPI Payment Solution | JioFinance
+Content:
+p as a financial tracking and money management tool. Just download the JioFinance app to get started. What can I do with the JioFinance ap...
+2025-12-10 12:22:03,028 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 12:22:03,031 [INFO] LLM completed in 29.36s
+2025-12-10 12:22:03,031 [INFO] LLM answer preview: Here's the list of Jio apps:
+
+* News App (JioNews)
+* Video Conference & Free Video Meeting App (JioMeet)
+* Finance App (JioFinance)
+* Home Control Smart TV & STB with Smart Home App (JioHome)
+* Health App - Health Tips & Check Up - Download JioHealthHub
+* UPI Payment Solution 
+
+Sources: 
+https://www.jio.com/apps/jionews 
+https://www.jio.com/apps/jiomeet 
+https://www.jio.com/apps/jiofinance 
+https:...
+2025-12-10 12:22:03,032 [INFO] [Timing] Retrieval+Context: 0.30s | LLM: 29.36s | Total: 29.66s
+2025-12-10 12:22:29,690 [INFO] Received request | Question='list jio services' | Detailed=False | top_k=5
+2025-12-10 12:22:29,690 [INFO] Retrieving up to 2 chunks for query: 'list jio services'
+2025-12-10 12:22:29,691 [INFO] --- New Query ---
+2025-12-10 12:22:29,692 [INFO] User question: list jio services
+2025-12-10 12:22:31,051 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 12:22:31,062 [INFO] Embedding generated in 1.37s | Length=768
+2025-12-10 12:22:31,084 [INFO] Embedding preview: [-0.05279471  0.0361745  -0.14560731  0.01294744  0.02019476]...
+2025-12-10 12:22:31,086 [INFO] Using cached embedding for: list jio services
+2025-12-10 12:22:31,405 [INFO] Total unique chunks retrieved: 2
+2025-12-10 12:22:31,405 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jiomeet | Distance=0.7621
+2025-12-10 12:22:31,406 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jionews | Distance=0.8204
+2025-12-10 12:22:31,406 [INFO] --- LLM Invocation ---
+2025-12-10 12:22:31,406 [INFO] Model: llama3.2:3b | num_ctx=1024 | num_predict=300
+2025-12-10 12:22:31,407 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 12:22:31,407 [INFO] URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platfor...
+
+---
+URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This i...
+
+---
+
+2025-12-10 12:23:30,642 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 12:23:30,644 [INFO] LLM completed in 59.24s
+2025-12-10 12:23:30,644 [INFO] LLM answer preview: Based on the provided website content, here are some Jio services:
+
+* JioMeet (Video Conference & Free Video Meeting App)
+	+ Can be downloaded from: https://jiomeetpro.jio.com/home#download
+	+ Recommended system requirements to attend a JioMeet call:
+		- Bile Device: Android or iOS app, download from Play Store/AppStore
+		- Desktop: Download from https://jiomeetpro.jio.com/home#download
+* JioNews ...
+2025-12-10 12:23:30,644 [INFO] [Timing] Retrieval+Context: 1.72s | LLM: 59.24s | Total: 60.96s
+2025-12-10 12:24:12,925 [INFO] Received request | Question='only list all names of jio apps' | Detailed=False | top_k=5
+2025-12-10 12:24:12,926 [INFO] Retrieving up to 2 chunks for query: 'only list all names of jio apps'
+2025-12-10 12:24:12,927 [INFO] --- New Query ---
+2025-12-10 12:24:12,927 [INFO] User question: only list all names of jio apps
+2025-12-10 12:24:13,043 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-10 12:24:13,043 [INFO] Embedding generated in 0.12s | Length=768
+2025-12-10 12:24:13,043 [INFO] Embedding preview: [-0.00285993  0.00961103 -0.12361137  0.04295536  0.01307335]...
+2025-12-10 12:24:13,048 [INFO] Using cached embedding for: only list all names of jio apps
+2025-12-10 12:24:13,051 [INFO] Using cached embedding for: Jio app
+2025-12-10 12:24:13,061 [INFO] Using cached embedding for: apps
+2025-12-10 12:24:13,063 [INFO] Using cached embedding for: Jio apps
+2025-12-10 12:24:13,067 [INFO] Using cached embedding for: Jio application
+2025-12-10 12:24:13,075 [INFO] Total unique chunks retrieved: 5
+2025-12-10 12:24:13,075 [INFO] [Chunk 1] URL=https://www.jio.com/apps/jionews | Distance=0.7409
+2025-12-10 12:24:13,075 [INFO] [Chunk 2] URL=https://www.jio.com/apps/jiomeet | Distance=0.7818
+2025-12-10 12:24:13,075 [INFO] [Chunk 3] URL=https://www.jio.com/apps/jiofinance | Distance=0.4971
+2025-12-10 12:24:13,075 [INFO] [Chunk 4] URL=https://www.jio.com/apps/jiohome | Distance=0.5300
+2025-12-10 12:24:13,075 [INFO] [Chunk 5] URL=https://www.jio.com/apps/jiohealth | Distance=0.6987
+2025-12-10 12:24:13,075 [INFO] Filtered to 5 /apps-related chunks.
+2025-12-10 12:24:13,075 [INFO] Applied /apps URL filter for app-related query.
+2025-12-10 12:24:13,075 [INFO] --- LLM Invocation ---
+2025-12-10 12:24:13,075 [INFO] Model: llama3.2:3b | num_ctx=1024 | num_predict=300
+2025-12-10 12:24:13,075 [INFO] --- Context Sent to LLM (truncated) ---
+2025-12-10 12:24:13,075 [INFO] URL: https://www.jio.com/apps/jionews
+Title: Online News - Live News Channels & News App | JioNews
+Content:
+ferred device, click the required link: Android : Download IOS: Download Website: www.jionews.com Can I download Magazines/Newspapers on JioNews app? You can download your favorite Magazines/Newspapers and read offline on the JioNews news app. This i...
+
+---
+URL: https://www.jio.com/apps/jiomeet
+Title: Download Video Conference & Free Video Meeting App - JioMeet
+Content:
+bile Device – Go to Play Store/AppStore, download the Android or iOS app. On Desktop – Visit https://jiomeetpro.jio.com/home#download and download the JioMeet application. What are the recommended system requirements to attend a JioMeet call? Platfor...
+
+---
+URL: https://www.jio.com/apps/jiofinance
+Title: Finance App: Mobile Banking & UPI Payment Solution | JioFinance
+Content:
+p as a financial tracking and money management tool. Just download the JioFinance app to get started. What can I do with the JioFinance ap...
+2025-12-10 12:25:17,923 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-10 12:25:17,925 [INFO] LLM completed in 64.85s
+2025-12-10 12:25:17,931 [INFO] LLM answer preview: Here are the names of Jio apps:
+
+1. JioNews
+2. JioMeet
+3. JioFinance
+4. JioHome
+5. JioHealth
+6. Magazines/Newspapers (downloadable through JioNews app)
+7. UPI Payment Solution (integrated with JioFinance)
+
+Sources: 
+https://www.jionews.com, https://jiomeetpro.jio.com/home#download, https://www.jio.com/apps/jiofinance, https://www.jio.com/apps/jiohome, https://www.jio.com/apps/jiohealth...
+2025-12-10 12:25:18,260 [INFO] [Timing] Retrieval+Context: 0.15s | LLM: 65.18s | Total: 65.34s

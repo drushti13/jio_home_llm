@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+requests
+beautifulsoup4
+chromadb
+ollama
+numpy
+pydantic
+python-dotenv
