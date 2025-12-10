@@ -32,17 +32,19 @@ The frontend is a simple **HTML/CSS/JS**-based chat UI that connects to the Fast
 
 ---
 
-## 🛠️ How to Run the Project
+## 🛠️ How to Run the Project 
 
 Clone the repository
 ```bash
 git clone https://github.com/drushti13/jio_home_llm
-cd jio_home_llm```
-
+cd jio_home_llm
+```
 Install Python dependencies
+```bash
 pip install -r backend/requirements.txt
 Build embeddings (ChromaDB index)
 python backend/build_index.py
-
+```
 Run the FastAPI backend
+```bash
 uvicorn backend.main:app --reload
